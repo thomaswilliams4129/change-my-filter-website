@@ -1,0 +1,116 @@
+.Logo img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-bottom: 50px;
+
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.mission-statement {
+    margin-top: 50px;
+    animation: slideInRight;
+    animation-duration: 2s;
+}
+
+.bottom-half {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color: #195A69;
+    margin-top: 100px;
+    animation: fadeIn;
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.items {
+    list-style-type: none;
+}
+
+figcaption {
+    font-size: x-large;
+    text-align: center;
+}
+
+.Icons img {
+    width: 50%;
+}
+
+.Icons figure {
+    display: inline-block;
+}
+
+.price h1 {
+    color: #e72125;
+}
+
+.mission-statement {
+    color: rgb(18, 65, 75);
+    padding: 10px;
+    box-shadow: 5px 10px rgb(18, 65, 75);
+}
+
+.line {
+    border: 3px solid rgb(18, 65, 75);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.List {
+    display: inline-block;
+    text-align: left;
+}
+
+.List p {
+    margin-bottom: 2px;
+}
+
+.List li {
+    font-size: large;
+}
+
+.phone {
+    font-size: 50px;
+}
+
+.Call-email {
+    text-transform: uppercase;
+    background-color: rgb(18, 65, 75);
+    color: #8D953B;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border-radius: 20px;
+}
+
+.name {
+    text-transform: uppercase;
+    color: #8D953B;
+}
+
+.number {
+    color: white;
+}
+
+.number:hover {
+    color: #8D953B;
+    text-decoration: none;
+}
+
+/* .email {
+    margin-bottom: 10px;
+} */
+
+.email {
+    color: white;
+}
+
+.email:hover {
+    color: #8D953B;
+}
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
