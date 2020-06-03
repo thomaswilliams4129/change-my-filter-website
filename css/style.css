@@ -5,13 +5,13 @@
     margin-bottom: 50px;
 
     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-duration: 2.5s; /* don't forget to set a duration! */
 }
 
 .mission-statement {
     margin-top: 50px;
-    animation: slideInRight;
-    animation-duration: 2s;
+    animation: slideInLeft;
+    animation-duration: 1.5s;
 }
 
 .bottom-half {
@@ -20,7 +20,7 @@
     background-color: #195A69;
     margin-top: 100px;
     animation: fadeIn;
-    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-duration: 2.5s; /* don't forget to set a duration! */
 }
 
 .items {
@@ -109,6 +109,7 @@ figcaption {
 
 .email:hover {
     color: #8D953B;
+    text-decoration: none;
 }
 
 
