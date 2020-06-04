@@ -9,6 +9,11 @@
     animation-duration: 2.5s; /* don't forget to set a duration! */
 }
 
+.color-blue {
+    color: rgb(18, 65, 75);
+    margin-top: 40px;
+}
+
 .mission-statement {
     margin-top: 50px;
     animation: slideInLeft;
